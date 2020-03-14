@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="49.5dp"
+        android:id="@+id/gridLayout1"
+       android:background="#ffda49aa">
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:id="@+id/ımageButton10"
+            android:layout_marginRight="0.0dp"
+            android:layout_marginLeft="0.0dp" />
+        <TextView
+            android:text="GERİ DÖN"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView1"
+            android:textColor="#ffffffff" />
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:id="@+id/ımageButton20"
+            android:layout_marginRight="0.0dp" />
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:id="@+id/ımageButton19" />
+    </GridLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="38.5dp"
+        android:id="@+id/linearLayout1" >
+        <Button
+            android:text="KİŞİSEL ÜRÜN"
+            android:layout_width="187.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button4"
+            android:textColor="#ffeee0e0"
+            android:background="#ffda49aa" />
+        <Button
+            android:text="Kategoriler"
+            android:layout_width="196.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button5"
+            android:textColor="#fffcfafa"
+            android:background="#ffda49aa"/>
+    </LinearLayout>
+    <Button
+        android:text="Kişisel Bakım ve Sağlık"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6" />
+    <Button
+        android:text="Parti Malzemeleri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7" />
+    <Button
+        android:text="Kişisel Aksesuarlar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8" />
+    <Button
+        android:text="Hediyelik Ürünler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9" />
+</LinearLayout>

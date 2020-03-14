@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="64.0dp"
+        android:id="@+id/gridLayout1"
+        android:background="#ff2bc3a8"
+        android:layout_marginTop0px
+        android:layout_marginEnd="0px"
+        android:layout_marginStart="0px"
+        android:layout_marginRight="0px"
+        android:layout_marginLeft="0px">
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:id="@+id/ımageButton2"
+            />
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:id="@+id/ımageButton3" />
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:id="@+id/ımageButton4" />
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:id="@+id/ımageButton5" />
+    </GridLayout>
+    <ImageButton
+        android:src="@android:drawable/ic_menu_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ımageButton6" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="70.0dp"
+        android:id="@+id/linearLayout1"
+        android:layout_marginHorizontal="10px">
+        <Button
+            android:text="Kitap"
+            android:layout_width="166.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button5"
+            android:layout_marginRight="10px"
+            android:layout_marginLeft="20px"
+            android:paddingRight="0px"
+            android:paddingLeft="0px"
+            android:paddingHorizontal="10px"
+            android:layout_marginTop="5px"
+            android:layout_marginBottom="10px"/>
+        <Button
+            android:text="E-Kitap"
+            android:layout_width="164.5dp"
+            android:layout_height="62.0dp"
+            android:id="@+id/button6"
+            android:layout_marginLeft="5px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="5px" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="70.0dp"
+        android:id="@+id/linearLayout1"
+        android:layout_marginHorizontal="10px">
+        <Button
+            android:text="FİLM"
+            android:layout_width="166.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button7"
+            android:layout_marginRight="10px"
+            android:layout_marginLeft="20px"
+            android:paddingRight="0px"
+            android:paddingLeft="0px"
+            android:paddingHorizontal="10px"
+            android:layout_marginTop="5px"
+            android:layout_marginBottom="10px" />
+        <Button
+            android:text="MÜZİK"
+            android:layout_width="164.5dp"
+            android:layout_height="62.0dp"
+            android:id="@+id/button8"
+            android:layout_marginLeft="5px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="5px" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="70.0dp"
+        android:id="@+id/linearLayout1"
+        android:layout_marginHorizontal="10px">
+        <Button
+            android:text="Elektronik"
+            android:layout_width="166.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button9"
+            android:layout_marginRight="10px"
+            android:layout_marginLeft="20px"
+            android:paddingRight="0px"
+            android:paddingLeft="0px"
+            android:paddingHorizontal="10px"
+            android:layout_marginTop="5px"
+            android:layout_marginBottom="10px" />
+        <Button
+            android:text="Oyun-Konsol"
+            android:layout_width="164.5dp"
+            android:layout_height="62.0dp"
+            android:id="@+id/button10"
+            android:layout_marginLeft="5px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="5px" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="70.0dp"
+        android:id="@+id/linearLayout1"
+        android:layout_marginHorizontal="10px">
+        <Button
+            android:text="Kırtasiye"
+            android:layout_width="166.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button11"
+            android:layout_marginRight="10px"
+            android:layout_marginLeft="20px"
+            android:paddingRight="0px"
+            android:paddingLeft="0px"
+            android:paddingHorizontal="10px"
+            android:layout_marginTop="5px"
+            android:layout_marginBottom="10px" />
+        <Button
+            android:text="Kişisel Ürün"
+            android:layout_width="164.5dp"
+            android:layout_height="62.0dp"
+            android:id="@+id/button12"
+            android:layout_marginLeft="5px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="5px" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="70.0dp"
+        android:id="@+id/linearLayout1"
+        android:layout_marginHorizontal="10px">
+        <Button
+            android:text="Hobi-Oyuncak"
+            android:layout_width="166.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button13"
+            android:layout_marginRight="10px"
+            android:layout_marginLeft="20px"
+            android:paddingRight="0px"
+            android:paddingLeft="0px"
+            android:paddingHorizontal="10px"
+            android:layout_marginTop="5px"
+            android:layout_marginBottom="10px" />
+        <Button
+            android:text="Spor-Outdoor"
+            android:layout_width="164.5dp"
+            android:layout_height="62.0dp"
+            android:id="@+id/button14"
+            android:layout_marginLeft="5px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="5px" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

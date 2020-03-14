@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="49.5dp"
+        android:id="@+id/gridLayout1"
+        android:background="#ffc5c4c3">
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:id="@+id/ımageButton10"
+            android:layout_marginRight="0.0dp"
+            android:layout_marginLeft="0.0dp" />
+        <TextView
+            android:text="GERİ DÖN"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView1"
+            android:textColor="#ffffffff" />
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:id="@+id/ımageButton20"
+            android:layout_marginRight="0.0dp" />
+        <ImageButton
+            android:src="@android:drawable/ic_menu_gallery"
+            android:id="@+id/ımageButton19" />
+    </GridLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="38.5dp"
+        android:id="@+id/linearLayout1" >
+        <Button
+            android:text="FİLM"
+            android:layout_width="187.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button4"
+            android:textColor="#ffeee0e0"
+            android:background="#ffc5c4c3" />
+        <Button
+            android:text="Kategoriler"
+            android:layout_width="196.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button5"
+            android:textColor="#fffcfafa"
+            android:background="#ffc5c4c3"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="32.5dp"
+        android:id="@+id/linearLayout2" >
+        <TextView
+            android:text="Çok Satanlar"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/textView2" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="212.5dp"
+        android:id="@+id/linearLayout3">
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="186.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout4">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="165.5dp"
+                android:layout_height="54.5dp"
+                android:id="@+id/linearLayout6"
+                android:layout_marginRight="0.0dp">
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="145.5dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ımageButton27"
+                    android:layout_marginRight="72.0dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="46.5dp"
+                android:id="@+id/linearLayout7"
+                android:layout_marginTop="0.0dp">
+                <TextView
+                    android:text="Rotring Tikky Rd Versatil Siyah 0.7"
+                    android:layout_width="174.0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView3" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="59.0dp"
+                android:id="@+id/linearLayout8">
+                <TextView
+                    android:text="25,03 TL"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="99.5dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView4" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="34.0dp"
+                android:id="@+id/linearLayout9">
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="48.0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ımageButton21" />
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="46.5dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ımageButton22" />
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="49.0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ımageButton23" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="186.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout5">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="51.5dp"
+                android:id="@+id/linearLayout10">
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="174.5dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ımageButton28" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="28.0dp"
+                android:id="@+id/linearLayout25"
+                android:layout_marginBottom="12.5dp">
+                <TextView
+                    android:text="Copier Bond A4 Fotokopi Kağıdı"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView11" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="55.0dp"
+                android:id="@+id/linearLayout26"
+                android:layout_marginBottom="11.0dp">
+                <TextView
+                    android:text="37,90 TL"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="76.0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView12"
+                    android:layout_marginRight="27.0dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="38.0dp"
+                android:id="@+id/linearLayout27" >
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="57.5dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ımageButton26"
+                    android:layout_marginRight="0.0dp" />
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="53.0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ımageButton25" />
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="66.0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ımageButton24" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="191.0dp"
+        android:id="@+id/linearLayout4" >
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="175.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout15" >
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="39.0dp"
+                android:id="@+id/linearLayout17">
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="143.0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ımageButton11" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="64.0dp"
+                android:id="@+id/linearLayout18">
+                <TextView
+                    android:text="Faber castell Sınav Silgisi"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView7"
+                    android:layout_marginBottom="15.0dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="29.5dp"
+                android:id="@+id/linearLayout19"
+                android:layout_marginTop="0.0dp">
+                <TextView
+                    android:text="2,00 TL"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="17.5dp"
+                    android:id="@+id/textView8" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="50.0dp"
+                android:id="@+id/linearLayout20">
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="51.5dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ımageButton13"
+                    android:layout_marginRight="0.0dp" />
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="60.0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ımageButton14" />
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="46.0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ımageButton15" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="186.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/linearLayout16">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="50.0dp"
+                android:id="@+id/linearLayout21">
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="177.0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ımageButton12"
+                    android:layout_marginRight="83.0dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="34.0dp"
+                android:id="@+id/linearLayout22">
+                <TextView
+                    android:text="Rotring He-polymer Kursun Kalem Ucu"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="193.5dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView9"
+                    android:layout_marginBottom="9.5dp"
+                    android:layout_marginRight="24.5dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="36.5dp"
+                android:id="@+id/linearLayout23"
+                android:layout_marginTop="0.0dp">
+                <TextView
+                    android:text="3,40 TL"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35.0dp"
+                    android:id="@+id/textView10"
+                    android:layout_marginTop="25px" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="40.5dp"
+                android:id="@+id/linearLayout24">
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="66.0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ımageButton18"
+                    android:layout_marginRight="0.0dp" />
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="60.0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ımageButton17" />
+                <ImageButton
+                    android:src="@android:drawable/ic_menu_gallery"
+                    android:layout_width="56.5dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/ımageButton16" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
